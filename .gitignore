@@ -1,0 +1,25 @@
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Artifacts/Data (Optional: If these are too large >100MB, exclude them. 
+# But for this project they seem small enough (~20MB total), so we will Keep them.
+# artifacts/
+
+# Testing scripts
+test_api.py
+check_cols.py
+check_artifacts.py
